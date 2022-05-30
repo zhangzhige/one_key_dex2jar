@@ -10,4 +10,6 @@
 下载附件的工具包并解压。进入后在cmd运行：
 
 ./d2j_all.sh apk_full_path
+
+
 编译结束后，所有class文件存放在当前目录的output_class文件夹。打包后的jar存放在当前目录的all_class.jar文件。因为打包jar是非常耗时的，也可以取消这一步，把d2j_all.sh文件的jar cvf all_class.jar -C ./output_class/ .注释掉。即可以不打包jar。直接用jd-gui查看output_class文件的class也是可以的。
